@@ -1,0 +1,44 @@
+aid: feign
+name: Feign
+description: >-
+  Feign is a Java to HTTP client binder inspired by Retrofit, JAXRS-2.0,
+  and WebSocket, providing a declarative way to create HTTP API clients
+  with minimal code and pluggable encoders and decoders.
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - SDKs
+  - Java
+  - HTTP Client
+url: >-
+  https://raw.githubusercontent.com/api-evangelist/feign/refs/heads/main/apis.yml
+created: '2026-03-27'
+modified: '2026-03-27'
+specificationVersion: '0.19'
+apis:
+  - aid: feign:feign
+    name: Feign
+    description: >-
+      Feign is a Java to HTTP client binder inspired by Retrofit, JAXRS-2.0,
+      and WebSocket, providing a declarative way to create HTTP API clients
+      with minimal code and pluggable encoders and decoders.
+    humanURL: https://github.com/OpenFeign/feign
+    tags:
+      - SDKs
+      - Java
+      - HTTP Client
+    properties:
+      - type: Documentation
+        url: https://github.com/OpenFeign/feign#readme
+      - type: Getting Started
+        url: https://github.com/OpenFeign/feign#basics
+common:
+  - type: Website
+    url: https://github.com/OpenFeign/feign
+  - type: Documentation
+    url: https://github.com/OpenFeign/feign#readme
+  - type: GitHub Organization
+    url: https://github.com/OpenFeign
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
