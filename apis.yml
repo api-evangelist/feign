@@ -7,9 +7,9 @@ description: >-
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
-  - SDKs
-  - Java
   - HTTP Client
+  - Java
+  - SDKs
 url: >-
   https://raw.githubusercontent.com/api-evangelist/feign/refs/heads/main/apis.yml
 created: '2026-03-27'
@@ -24,9 +24,9 @@ apis:
       with minimal code and pluggable encoders and decoders.
     humanURL: https://github.com/OpenFeign/feign
     tags:
-      - SDKs
-      - Java
       - HTTP Client
+      - Java
+      - SDKs
     properties:
       - type: Documentation
         url: https://github.com/OpenFeign/feign#readme
