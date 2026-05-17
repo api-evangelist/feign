@@ -41,7 +41,7 @@ apis:
     properties:
       - type: Documentation
         url: https://github.com/OpenFeign/feign#readme
-      - type: Getting Started
+      - type: GettingStarted
         url: https://github.com/OpenFeign/feign#basics
       - type: Source Code
         url: https://github.com/OpenFeign/feign
@@ -222,7 +222,7 @@ common:
     url: https://github.com/OpenFeign/feign
   - type: Documentation
     url: https://github.com/OpenFeign/feign#readme
-  - type: GitHub Organization
+  - type: GitHubOrganization
     url: https://github.com/OpenFeign
   - type: Issues
     url: https://github.com/OpenFeign/feign/issues
