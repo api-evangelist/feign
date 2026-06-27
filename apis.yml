@@ -228,7 +228,7 @@ common:
   url: https://github.com/OpenFeign
 - type: Issues
   url: https://github.com/OpenFeign/feign/issues
-- type: Releases
+- type: ReleaseNotes
   url: https://github.com/OpenFeign/feign/releases
 - type: License
   url: https://github.com/OpenFeign/feign/blob/master/LICENSE
