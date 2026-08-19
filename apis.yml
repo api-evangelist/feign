@@ -36,7 +36,7 @@ tags:
 - SDKs
 url: >-
   https://raw.githubusercontent.com/api-evangelist/feign/refs/heads/main/apis.yml
-specificationVersion: '0.19'
+specificationVersion: '0.23'
 apis:
 - aid: feign:feign-core
   name: Feign Core
