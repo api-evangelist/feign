@@ -196,6 +196,10 @@ apis:
   humanURL: https://github.com/OpenFeign/feign/tree/master/jaxrs
   tags:
   - JAX-RS
+  - Annotation
+  - Contracts
+  tags_raw:
+  - JAX-RS
   - Annotations
   - Contracts
   properties:
