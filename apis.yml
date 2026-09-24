@@ -42,7 +42,7 @@ tags:
 - HTTP Client
 - Java
 - JVM
-- Open-Source
+- Open Source
 - REST
 - SDK
 tags_raw:
@@ -52,6 +52,7 @@ tags_raw:
 - Open Source
 - REST
 - SDKs
+- Open-Source
 url: >-
   https://raw.githubusercontent.com/api-evangelist/feign/refs/heads/main/apis.yml
 specificationVersion: '0.23'
@@ -77,8 +78,6 @@ apis:
     url: https://github.com/OpenFeign/feign
   - type: Maven Central
     url: https://central.sonatype.com/artifact/io.github.openfeign/feign-core
-  - url: graphql/feign-graphql.md
-    type: GraphQL
 - aid: feign:feign-jackson
   name: Feign Jackson
   description: >-
