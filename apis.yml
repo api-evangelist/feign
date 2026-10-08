@@ -253,6 +253,12 @@ apis:
   - type: Source Code
     url: https://github.com/OpenFeign/feign/tree/master/micrometer
 common:
+- type: Plans
+  url: plans/feign-plans-pricing.yml
+- type: RateLimits
+  url: rate-limits/feign-rate-limits.yml
+- type: FinOps
+  url: finops/feign-finops.yml
 - type: Website
   url: https://github.com/OpenFeign/feign
 - type: Documentation
