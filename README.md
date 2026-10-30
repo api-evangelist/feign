@@ -1,4 +1,4 @@
-# Feign (feign)
+# Feign
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,65 +64,114 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Feign (OpenFeign) is a declarative Java HTTP client binder inspired by Retrofit, JAX-RS, and WebSocket. It turns annotated Java interfaces into templated HTTP requests with pluggable encoders, decoders, error handlers, and HTTP transports. The OpenFeign organization maintains a broad set of modules covering serialization, HTTP transports, JAX-RS contracts, resilience, logging, form encoding, GraphQL, and metrics.
+Feign (OpenFeign) is a declarative Java HTTP client binder inspired by Retrofit, JAX-RS, and WebSocket. It turns annotated interfaces into templated HTTP requests with pluggable encoders, decoders, error handlers, and HTTP transports. The OpenFeign organization maintains a large set of modules covering serialization (Jackson, Gson, Moshi, FastJSON2, JAXB, SAX, SOAP), HTTP transports (OkHttp, Apache HttpClient, Java 11 client, Ribbon), JAX-RS contracts, resilience (Hystrix), logging (SLF4J), form encoding, GraphQL, and metrics.
 
-**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/feign/refs/heads/main/apis.yml)
+**Areas:** HTTP Client · Java · JVM · Open Source · REST · SDK
 
-## Scope
+## Feign on APIs.io
 
-- **Type:** Index
-- **Position:** Consumer
-- **Access:** 3rd-Party
+Everything profiled for Feign is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/feign/](https://apis.io/providers/feign/)** — or go straight to one of the APIs or properties below.
 
-## Tags
+### APIs (12)
 
-- HTTP Client, Java, JVM, Open Source, REST, SDKs
+- [Feign Core](https://apis.io/apis/feign/feign-core/) — Feign Core is the base library that processes annotated Java interfaces into templated HTTP requests. It defines the contract, encoder, decoder, and client…
+- [Feign Jackson](https://apis.io/apis/feign/feign-jackson/) — Feign Jackson module provides Jackson-based JSON encoding and decoding for Feign-annotated client interfaces, the most common serialization choice in JVM…
+- [Feign Gson](https://apis.io/apis/feign/feign-gson/) — Feign Gson module provides Google Gson-based JSON encoding and decoding for Feign clients, useful in projects already standardized on Gson.
+- [Feign OkHttp](https://apis.io/apis/feign/feign-okhttp/) — Feign OkHttp module replaces the default JDK HTTP transport with Square's OkHttp client, adding HTTP/2, connection pooling, and modern transport features.
+- [Feign Apache HttpClient](https://apis.io/apis/feign/feign-httpclient/) — Feign Apache HttpClient module integrates Apache HttpComponents (HC5) as the underlying HTTP transport for Feign clients.
+- [Feign Java 11 HTTP](https://apis.io/apis/feign/feign-java11/) — Feign Java 11 HTTP module uses the JDK 11+ standard HttpClient as the transport, supporting HTTP/2 and asynchronous calls without external dependencies.
+- [Feign Ribbon](https://apis.io/apis/feign/feign-ribbon/) — Feign Ribbon module integrates Netflix Ribbon for client-side load balancing across a list of HTTP servers.
+- [Feign Hystrix](https://apis.io/apis/feign/feign-hystrix/) — Feign Hystrix module wraps Feign client calls in Netflix Hystrix commands, adding circuit breaking, fallbacks, and bulkhead isolation.
+- [Feign JAX-RS](https://apis.io/apis/feign/feign-jaxrs/) — Feign JAX-RS modules let developers reuse JAX-RS 1.x, 2.x, 3.x, and 4.x annotations on Feign client interfaces instead of Feign's native annotation set.
+- [Feign SLF4J](https://apis.io/apis/feign/feign-slf4j/) — Feign SLF4J module routes Feign request and response logging through the SLF4J facade, integrating with the host application's logging backend.
+- [Feign Form](https://apis.io/apis/feign/feign-form/) — Feign Form module adds support for application/x-www-form-urlencoded and multipart/form-data request bodies, including file uploads.
+- [Feign Micrometer](https://apis.io/apis/feign/feign-micrometer/) — Feign Micrometer module exposes Feign client metrics (timings, counts, errors) through Micrometer for shipment to Prometheus, Datadog, and other monitoring…
 
-## Timestamps
+### Published properties
 
-- **Created:** 2026-03-27
-- **Modified:** 2026-04-28
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-## Modules
+#### GraphQL (1)
 
-### Feign Core
-Base library that processes annotated Java interfaces into templated HTTP requests.
-- [Source / Docs](https://github.com/OpenFeign/feign)
+GraphQL schemas.
 
-### Serialization
-- **Feign Jackson** — [docs](https://github.com/OpenFeign/feign/tree/master/jackson)
-- **Feign Gson** — [docs](https://github.com/OpenFeign/feign/tree/master/gson)
+- [Moved to /providers/feign/](https://apis.io/graphqls/feign/feign-graphql/)
 
-### HTTP Transports
-- **Feign OkHttp** — [docs](https://github.com/OpenFeign/feign/tree/master/okhttp)
-- **Feign Apache HttpClient (HC5)** — [docs](https://github.com/OpenFeign/feign/tree/master/httpclient)
-- **Feign Java 11 HTTP** — [docs](https://github.com/OpenFeign/feign/tree/master/java11)
+#### Plans and pricing (1)
 
-### Resilience and Load Balancing
-- **Feign Ribbon** — [docs](https://github.com/OpenFeign/feign/tree/master/ribbon)
-- **Feign Hystrix** — [docs](https://github.com/OpenFeign/feign/tree/master/hystrix)
+Published plans, tiers and prices.
 
-### Contracts
-- **Feign JAX-RS** — [docs](https://github.com/OpenFeign/feign/tree/master/jaxrs)
+- [Feign Plans Pricing](https://apis.io/plans/feign/feign-plans-pricing/)
 
-### Logging and Metrics
-- **Feign SLF4J** — [docs](https://github.com/OpenFeign/feign/tree/master/slf4j)
-- **Feign Micrometer** — [docs](https://github.com/OpenFeign/feign/tree/master/micrometer)
+#### Rate limits (1)
 
-### Forms
-- **Feign Form** — [docs](https://github.com/OpenFeign/feign-form)
+Published request limits.
 
-## Common Properties
+- [Feign Rate Limits](https://apis.io/rate-limits/feign/feign-rate-limits/)
 
-- [Website / Source](https://github.com/OpenFeign/feign)
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Feign Finops](https://apis.io/finops/feign/feign-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://github.com/OpenFeign/feign)
 - [Documentation](https://github.com/OpenFeign/feign#readme)
-- [GitHub Organization](https://github.com/OpenFeign)
-- [Issues](https://github.com/OpenFeign/feign/issues)
-- [Releases](https://github.com/OpenFeign/feign/releases)
-- [License](https://github.com/OpenFeign/feign/blob/master/LICENSE)
-- [Maven Central](https://central.sonatype.com/namespace/io.github.openfeign)
+- [GitHub](https://github.com/OpenFeign)
 
-## Maintainers
+## API Evangelist rating
 
-- **FN:** Kin Lane
-- **Email:** kin@apievangelist.com
+**Kin Score 13.3** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 62.5 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 26.3 |
+| Developer ergonomics | 21.4 |
+| Access clarity | 7.9 |
+
+**Agent readiness 0.6** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 0.0** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/feign/](https://apis.io/providers/feign/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Feign: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/feign/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
